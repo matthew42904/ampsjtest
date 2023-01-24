@@ -1,10 +1,10 @@
-Meta.DisplayName=Server Jar TEST
-Meta.Description=Server Jar TEST
+Meta.DisplayName=Server Jar
+Meta.Description=FOR TESTING ONLY RIGHT NOW
 Meta.OS=Windows, Linux
 Meta.Arch=x86_64
-Meta.Author=matthew42904
-Meta.URL=https://geysermc.org/
-Meta.DisplayImageSource=url:https://camo.githubusercontent.com/2c38e59629bbb0f2e632c231416baf222119b55a24803cf548e04c26e2785760/68747470733a2f2f6765797365726d632e6f72672f696d672f6765797365722d313736302d3836302e706e67
+Meta.Author=Matthew42904
+Meta.URL=https://github.com/matthew42904/ampsj
+Meta.DisplayImageSource=url:http://serverjars.com/img/icon.png
 Meta.EndpointURIFormat=steam://connect/{0}
 Meta.ConfigManifest=geyserconfig.json
 Meta.MetaConfigManifest=
