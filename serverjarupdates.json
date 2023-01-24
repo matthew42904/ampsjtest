@@ -3,8 +3,8 @@
         "UpdateStageName":"Server Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastStableBuild/artifact/bootstrap/standalone/build/libs/Geyser-Standalone.jar",
-        "UpdateSourceArgs":"Geyser.jar",
+        "UpdateSourceData":"https://serverjars.com/api/fetchJar/Vanilla/Vanilla",
+        "UpdateSourceArgs":"server.jar",
         "UpdateSourceTarget":"{{$FullRootDir}}",
         "OverwriteExistingFiles":true
     },
