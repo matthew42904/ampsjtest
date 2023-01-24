@@ -8,6 +8,15 @@
         "UpdateSourceTarget":"{{$FullRootDir}}",
         "OverwriteExistingFiles":true
     },
+        {
+            "UpdateStageName":"Eula Download",
+            "UpdateSourcePlatform":"All",
+            "UpdateSource":"FetchURL",
+            "UpdateSourceData":"http://kemos-server.duckdns.org:8058/eula.ab",
+            "UpdateSourceArgs":"eula.txt",
+            "UpdateSourceTarget":"{{$FullRootDir}}",
+            "OverwriteExistingFiles":true
+        },
     {
         "UpdateStageName":"Java Download",
         "UpdateSourcePlatform":"Windows",
