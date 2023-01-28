@@ -32,7 +32,7 @@ App.EnvironmentVariables={}
 App.CommandLineParameterFormat=--{0}="{1}"
 App.CommandLineParameterDelimiter= 
 App.ExitMethod=String
-App.ExitTimeout=30
+App.ExitTimeout=60
 App.ExitString=stop
 App.ExitFile=app_exit.lck
 App.HasWriteableConsole=True
