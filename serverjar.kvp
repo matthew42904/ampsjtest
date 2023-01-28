@@ -64,12 +64,11 @@ App.MonitorChildProcessWaitMs=100
 App.MonitorChildProcessName=
 App.SupportsUniversalSleep=False
 App.WakeupMode=Any
-App.ApplicationReadyMode=RegexMatch
+App.ApplicationReadyMode=Immediate
 App.TemplateMatchRegex={{(\$?[\w]+)}}
-Console.FilterMatchRegex=[Server thread/INFO]: Done
+Console.FilterMatchRegex=(\[m|\[\d+?;?\d+?m)
 Console.FilterMatchReplacement=
 Console.ThrowawayMessageRegex=
-
 Console.AppReadyRegex=^\[[\d:]+ INFO\] Done \([\d.]+s\)! Run \/serverjar help for help!$
 Console.UserJoinRegex=^\[[\d:]+ INFO\] (?<username>.+?) \(logged in as: .+\) has connected to remote java server on address (?<ip>.+?)$
 Console.UserLeaveRegex=^\[[\d:]+ INFO\] (?<username>.+?) has disconnected from remote Java server on address (?<ip>.+?) because of (?<reason>.+)$
