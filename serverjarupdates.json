@@ -1,5 +1,19 @@
 [
     {
+        "UpdateStageName":"Remove Old Server File",
+        "UpdateSourcePlatform":"Windows",
+        "UpdateSource":"Executable",
+        "UpdateSourceData":"cmd.exe",
+        "UpdateSourceArgs":"/C RD /S /Q .\\{{$FullRootDir}}\\server.jar"
+    },
+    {
+        "UpdateStageName":"Remove Old Server File",
+        "UpdateSourcePlatform":"Linux",
+        "UpdateSource":"Executable",
+        "UpdateSourceData":"/bin/bash",
+        "UpdateSourceArgs":"-c 'rm -rf {{$FullRootDir}}/server.jar'"
+    },
+    {
         "UpdateStageName":"Server Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
