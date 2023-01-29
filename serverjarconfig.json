@@ -1,18 +1,19 @@
 [
     {
         "DisplayName":"Java Version",
-        "Category":"Java Settings",
-        "Description":"Sets the Java version to install. Must be a major version number only such as 17 or 19, not a subversion. Check the [Geyser wiki](https://wiki.geysermc.org/geyser/setup/) for versions compatible with Geyser, and the [Oracle website](https://www.oracle.com/java/technologies/downloads/) for available downloads. Server must be updated after changing this setting",
-        "Keywords":"java,version",
+        "Description":"Sets the Java version to install. Must be a major version number only such as 17 or 19, not a subversion. Check out [Oracle website](https://www.oracle.com/java/technologies/downloads/) for available downloads. Server must be updated after changing this setting",
         "FieldName":"JavaVersion",
-        "InputType":"number",
-        "MinValue":"17",
-        "IsFlagArgument":false,
+        "Category":"Java Settings",
         "ParamFieldName":"JavaVersion",
-        "IncludeInCommandLine":false,
-        "DefaultValue":"19",
-        "EnumValues":{}
-    },
+          "IncludeInCommandLine": true,
+          "InputType": "enum",
+          "EnumValues": {
+            "8":"Java 8",
+            "17":"Java 17",
+            "19":"Java 19"
+          },
+          "DefaultValue": "19"
+      },
     {
         "DisplayName":"Minimum Memory",
         "Category":"Java Settings",
