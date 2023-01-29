@@ -3,7 +3,7 @@
         "UpdateStageName":"Server Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://serverjars.com/api/fetchJar/Vanilla/Vanilla",
+        "UpdateSourceData":"https://serverjars.com/api/fetchJar/{{type}}/{{category}}/{{version}}",
         "UpdateSourceArgs":"server.jar",
         "UpdateSourceTarget":"{{$FullRootDir}}",
         "OverwriteExistingFiles":true

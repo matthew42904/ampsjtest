@@ -15,6 +15,50 @@
         "DefaultValue": "19"
     },
     {
+		"DisplayName": "Server Type",
+		"Description": "The user can select one of the following options for the server type they want",
+		"FieldName": "type",
+		"Category": "Server Settings",
+		"ParamFieldName": "type",
+		"IncludeInCommandLine": true,
+		"InputType": "enum",
+		"EnumValues": {
+		  "vanilla": "vanilla",
+		  "bedrock": "bedrock",
+		  "modded": "modded",
+		  "servers": "servers",
+		  "proxies": "proxies"
+		},
+		"DefaultValue": "vanilla"
+	},
+    {
+        "DisplayName":"Server Category",
+        "Category":"Server Settings",
+        "Description":"Type in the server category you want. for a list got to http://kemos-server.duckdns.org:8058/",
+        "Keywords":"category",
+        "FieldName":"category",
+        "InputType":"text",
+        "IsFlagArgument":false,
+        "ParamFieldName":"category",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"vanilla",
+        "EnumValues":{}
+    },
+    
+    {
+        "DisplayName":"Server Version",
+        "Category":"Server Settings",
+        "Description":"Type in the server Version you want. leave black for latest for a list got to http://kemos-server.duckdns.org:8058/",
+        "Keywords":"version",
+        "FieldName":"version",
+        "InputType":"text",
+        "IsFlagArgument":false,
+        "ParamFieldName":"version",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"",
+        "EnumValues":{}
+    },
+    {
         "DisplayName":"Minimum Memory",
         "Category":"Java Settings",
         "Description":"Java's minimum heap size",
