@@ -23,13 +23,13 @@
 		"IncludeInCommandLine": true,
 		"InputType": "enum",
 		"EnumValues": {
-		  "vanilla": "vanilla",
-		  "bedrock": "bedrock",
-		  "modded": "modded",
-		  "servers": "servers",
-		  "proxies": "proxies"
+		  "vanilla": "Vanilla",
+		  "bedrock": "Bedrock",
+		  "modded": "Modded",
+		  "servers": "Servers",
+		  "proxies": "Proxies"
 		},
-		"DefaultValue": "vanilla"
+		"DefaultValue": "Vanilla"
 	},
     {
         "DisplayName":"Server Category",
