@@ -27,7 +27,7 @@ App.LinuxCommandLineArgs=
 App.WindowsCommandLineArgs=
 App.CommandLineArgs=-Xms{{MinMemory}}M -Xmx{{MaxMemory}}M {{CustomJavaArgs}} -jar server.jar {{$PlatformArgs}} nogui
 App.UseLinuxIOREDIR=False
-App.AppSettings={}
+App.AppSettings={"ServerIP": 0.0.0.0, "ServerPort": 25565}
 App.EnvironmentVariables={}
 App.CommandLineParameterFormat=--{0}="{1}"
 App.CommandLineParameterDelimiter= 

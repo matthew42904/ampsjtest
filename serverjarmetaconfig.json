@@ -1,0 +1,16 @@
+[
+    {
+        "ConfigFile": "server.properties",	
+        "ConfigType": "kvp",				
+        "ConfigFormat": "{0}={1}",   
+        "Subsections": [
+            {
+                "Heading": "$root",			
+                "SettingMappings": {
+                    "IP": "ServerIP",
+                    "Port": "ServerPort"
+                }
+            }
+        ]
+    }
+]
