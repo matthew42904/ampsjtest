@@ -18,6 +18,14 @@
         "OverwriteExistingFiles":true
     },
     {
+        "UpdateStageName":"Server properties download",
+        "UpdateSourcePlatform":"All",
+        "UpdateSource":"FetchURL",
+        "UpdateSourceData":"http://kemos-server.duckdns.org:8058/server.properties",
+        "UpdateSourceTarget":"{{$FullRootDir}}",
+        "OverwriteExistingFiles":true
+    },
+    {
         "UpdateStageName":"Java Download",
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"FetchURL",
