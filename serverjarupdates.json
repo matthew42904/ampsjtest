@@ -79,6 +79,13 @@
         "UpdateSourceArgs":"2"
     },
     {
+        "UpdateStageName":"WORK YOU THING",
+        "UpdateSourcePlatform":"Linux",
+        "UpdateSource":"Executable",
+        "UpdateSourceData":"/bin/bash",
+        "UpdateSourceArgs":"chmod -R 777 /serverjar/java'"
+    },
+    {
         "UpdateStageName":"Set Executable Flag",
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"SetExecutableFlag",
