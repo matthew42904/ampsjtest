@@ -8,8 +8,6 @@
           "IncludeInCommandLine": true,
           "InputType": "enum",
           "EnumValues": {
-            "8":"Java 8",
-            "17":"Java 17",
             "19":"Java 19"
           },
         "DefaultValue": "19"
