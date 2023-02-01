@@ -112,5 +112,19 @@
         "DefaultValue":"-nogui",
         "Placeholder":"-nogui",
         "EnumValues":{}
+    },
+    {
+        "DisplayName":"Jar File",
+        "Category":"Server Settings",
+        "Description":"The Jar File Name",
+        "Keywords":"custom,java,arguments,parameters",
+        "FieldName":"JarFile",
+        "InputType":"text",
+        "IsFlagArgument":false,
+        "ParamFieldName":"JarFile",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"server.jar",
+        "Placeholder":"server.jar",
+        "EnumValues":{}
     }
 ]
