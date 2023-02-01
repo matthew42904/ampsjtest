@@ -98,5 +98,19 @@
         "DefaultValue":"",
         "Placeholder":"-XX:+UseG1GC",
         "EnumValues":{}
+    },
+    {
+        "DisplayName":"Server Arguments",
+        "Category":"Server Settings",
+        "Description":"The bootup arguements for the server",
+        "Keywords":"custom,java,arguments,parameters",
+        "FieldName":"ServerArgs",
+        "InputType":"text",
+        "IsFlagArgument":false,
+        "ParamFieldName":"ServerArgs",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"-nogui",
+        "Placeholder":"-nogui",
+        "EnumValues":{}
     }
 ]
